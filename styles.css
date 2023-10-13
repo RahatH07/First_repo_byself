@@ -1,0 +1,174 @@
+body{
+    background-image: url(galaxy-cosmic-cliffs-carina-nebula-space-universe-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    margin: 0; 
+    height: 10%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    font-family: "Indie Flower", "consolas" ;
+    font-size: 45px;
+    border-style: outset;
+    border-width: 5px;
+    padding: 5px;
+    text-shadow: 0px 0px 4px white;
+    box-shadow: 5px 5px 5px white;
+}
+#p1{
+    margin: 0; 
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "consolas", sans-serif;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black ;
+    padding: 5px;
+    font-size: 150%;
+    width: 40%;
+}
+#p1:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.flex-for-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-for-p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dc {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "consolas", sans-serif;
+    border-style: outset;
+    border-width: 5px;
+    height: 350px;
+    width: 500px;
+    border-color: black;
+    padding: 5px;
+    margin: 1px;
+    font-size: 150%;
+}
+#dc:hover{
+    box-shadow: 5px 5px 10px black;
+}
+#wg {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "consolas", sans-serif;
+    border-style: outset;
+    border-width: 5px;
+    height: 350px;
+    width: 500px;
+    border-color: black;
+    padding: 5px;
+    margin: 1px;
+    font-size: 120%; 
+}
+#wg:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.clear {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.flex-for-ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol:nth-child(1n){
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-color: white;
+    border-width: 5px;
+    border-style: outset;
+    width: 19%;
+    margin: 0;
+}
+ol:hover{
+    box-shadow: 5px 5px 10px white;
+}
+
+a:hover{
+    color: blue;
+}
+a:link{
+    color: grey;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: blue;
+}
+#Click{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin: 1px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-color: white;
+    border-width: 5px;
+    border-style: outset;
+    /*
+    animation: crazySlide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    combine these
+    in order, duration ,timing function ,delay, iteration, playstate, name of animation.
+    essentially what i did was, make a rainbow effect, make it spin alot, had to trnalsate it
+    because it was translatedY initially.
+    */
+}
+#Click:active {
+    animation: 1s ease-in 0s 1 crazySlide forwards;
+}
+
+@keyframes crazySlide {
+    0% {
+        opacity: 100%;
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    10% { background-color: orange; }
+    20% { background-color: yellow; }
+    30% { background-color: green; }
+    40% { background-color: blue; }
+    50% { background-color: indigo; }
+    60% { background-color: violet; }
+    70% { background-color: pink; }
+    80% { background-color: coral; }
+    90% { background-color: turquoise; }
+    100% {
+        opacity: 0%;
+        margin-left: 100%;
+        transform: rotate(1080deg);
+    }
+}
+
+    
+
